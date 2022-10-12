@@ -1,0 +1,89 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	text-align: center;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);color: #fff;
+}
+
+img {
+	display: block;
+	width: 480px;
+	height: 480px;
+	margin: 2rem auto;
+}
+
+.app {
+	padding: 2rem;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+input {
+	
+	appearance: none;
+	outline: none;
+	border: none;
+	background: #EEE;
+	width: 100%;
+	max-width: 320px;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	margin-right: 1rem;
+}
+
+button, a {
+	appearance: none;
+	outline: none;
+	border: none;
+	background: #EEE;
+	cursor: pointer;
+	width: 100%;
+	max-width: 320px;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+
+	color: #030303;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 767px) {
+	.max-width {
+		max-width: 100%;
+		max-width: 86%;
+	}
+
+	input {
+	
+		margin-right: 0rem;
+		padding: 0.5rem 1rem;
+		margin: 1rem;
+
+	}
+	img {
+	max-width: 100%;
+	height: auto;
+	
+	}
+
+	* {
+		
+		padding: 0.1rem;
+		
+	}
+}
+
+
+
+
